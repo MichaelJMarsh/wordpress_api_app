@@ -1,0 +1,22 @@
+name: wordpress_api_app
+description: A basic implementation of JSON REST API to communicate between Wordpress and application in real time.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  flutter_html: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
